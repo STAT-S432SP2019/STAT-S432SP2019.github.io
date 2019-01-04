@@ -1,5 +1,5 @@
 ---
-output: html_document
+title: "STAT-S 432 Applied Linear Models II, SP2019" 
 ---
 
-# STAT-S 432 SP2019 Main Course Page
+Testing
