@@ -1,5 +1,0 @@
----
-title: "STAT-S 432 Applied Linear Models II, SP2019" 
----
-
-Testing
