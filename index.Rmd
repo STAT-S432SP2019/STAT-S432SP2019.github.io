@@ -10,3 +10,4 @@ This is the (very) basic website for STAT-S 432, Spring 2019. Rennovation is pla
 * [Syllabus](Syllabus.html)  
 * [Project Guidelines](Project.html)  
 * [Lecture Notes](https://github.com/STAT-S432SP2019/lectures)  
+* [Schedule](Schedule.html)
