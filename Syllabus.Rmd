@@ -5,6 +5,10 @@ output: html_document
 
 # Syllabus
 
+## Acknowledgement
+
+I want to give my thanks to Professor Dan McDonald for providing such a rich set of resources for establishing this course. I hope to add my own flair to the course content as the course progresses.
+
 ## Course info
 __Instructor__:  
 Nicholas Kaukis (Dr. Nick)  
@@ -12,7 +16,7 @@ Office: Informatics East 210A (Not Luddy Hall)
 Email: nick@iu.edu 
 
 __Office hours__:  
-Me: MWF 2:00 PM - 4:00 PM  
+Me: MW 2:00 PM - 4:00 PM, and F 2:00 PM -- 3:00 PM
 TA: TBD
 
 __Main Webpages__:    
@@ -177,4 +181,3 @@ only considered cheating
 * If you are struggling, we are here to help.
 * If I suspect cheating, your case will be forwarded to the Dean's office. No questions asked.  
 
-> I want to give my thanks to Professor Dan McDonald for providing such a rich set of resources for establishing this course. I hope to add my own flair to the course content as the course progresses.
