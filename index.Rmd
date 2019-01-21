@@ -7,7 +7,14 @@ This is the (very) basic website for STAT-S 432, Spring 2019. Rennovation is pla
 
 ## Navigation  
 * [Course Github](https://github.com/STAT-S432SP2019)  
-* [Syllabus](Syllabus.html)  
+* [Lecture Notes](https://github.com/STAT-S432SP2019/lectures)
 * [Project Guidelines](Project.html)  
-* [Lecture Notes](https://github.com/STAT-S432SP2019/lectures)  
 * [Schedule](Schedule.html)
+* [Slack](https://stat-s432sp2019.slack.com)
+* [Syllabus](Syllabus.html)
+
+## GitHub Flowchart
+
+The following is a flowchart created by our wonderful TA, Ethan. It is meant to give
+a basic idea of using Git in a way that minimizes issues.  
+![GitHub Flowchart](gfx/Git_RStudio_Flow.jpg)

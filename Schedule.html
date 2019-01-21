@@ -96,6 +96,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -103,14 +106,74 @@ button.code-folding-btn:focus {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -181,7 +244,7 @@ PC = Project Checkpoint</p>
 <tr class="odd">
 <td align="left">jan-22 tue</td>
 <td align="left">linear regression</td>
-<td align="left"></td>
+<td align="left">(<a href="https://raw.githubusercontent.com/stat-s432sp2019/lectures/master/lec04.pdf">pdf</a>)</td>
 <td align="left">AEPV 1 (ISL 3)</td>
 <td align="left"></td>
 <td align="left"></td>
@@ -192,6 +255,54 @@ PC = Project Checkpoint</p>
 <td align="left"></td>
 <td align="left"></td>
 <td align="left">PC 0 and New HW 1 Due date</td>
+<td align="left"><a href="https://github.com/STAT-S432SP2019/RRs/tree/master/rr3">rr3</a></td>
+</tr>
+<tr class="odd">
+<td align="left">jan-29 tue</td>
+<td align="left">regression issues part I</td>
+<td align="left"></td>
+<td align="left">AEPV 2</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">jan-31 thu</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">PC1</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">feb-05 tue</td>
+<td align="left">model selection</td>
+<td align="left"></td>
+<td align="left">AEPV 3 (ISL 5.1)</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">feb-07 thu</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">HW2 Due</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">feb-12 tue</td>
+<td align="left">lec07</td>
+<td align="left"></td>
+<td align="left">AEPV 4</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">feb-14 thu</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">HW3 Due</td>
 <td align="left"></td>
 </tr>
 </tbody>
