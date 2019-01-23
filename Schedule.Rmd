@@ -48,8 +48,8 @@ cdat$rr[which.days.rrs[1:length(rrlinks)]] = allrrs
 
 * Actions in parentheses `(some action)` indicate optional/supplemental readings.
 
-AEPV = [_Advanced Data Analysis from an Elementary Point of View_](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/ADAfaEPoV.pdf)  
-ISL = [_Introduction to Statistical Learning_](http://www-bcf.usc.edu/~gareth/ISL/)  
+AEPV = [_Advanced Data Analysis from an Elementary Point of View_](AEPV.pdf)  
+ISL = [_Introduction to Statistical Learning_](ISL.pdf)  
 HGR = [_Happy Git with R_](http://happygitwithr.com/)  
 R4DS = [_R for Data Science_](http://r4ds.had.co.nz)  
 PC = Project Checkpoint
