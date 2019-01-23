@@ -12,7 +12,10 @@ This is the (very) basic website for STAT-S 432, Spring 2019. Rennovation is pla
 * [Schedule](Schedule.html)
 * [Slack](https://stat-s432sp2019.slack.com)
 * [Syllabus](Syllabus.html)
-
+* Books
+    + [AEPV: Shalizi](AEPV.pdf)
+    + [ISL: Casella, Fienberg, and Olkin](ISL.pdf)
+  
 ## GitHub Flowchart
 
 The following is a flowchart created by our wonderful TA, Ethan. It is meant to give
