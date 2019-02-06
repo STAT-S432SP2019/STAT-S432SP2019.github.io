@@ -1,13 +1,13 @@
-month,day,dow,link_it,notes,topic,reading,action
-January,8,Tuesday,TRUE,lec01,"intro, syllabus, github",HGR,
-January,10,Thursday,TRUE,lec02,github and Rmarkdown,(R4DS 27-30),
-January,15,Tuesday,TRUE,lec03,coding and functions,AEPV App N. (R4DS 19),
-January,17,Thursday,FALSE,,,,<s>HW1 Due</s>
-January,22,Tuesday,TRUE,lec04,linear regression,AEPV 1 (ISL 3),
-January,24,Thursday,FALSE,,,,PC 0 and New HW 1 Due date
-January,29,Tuesday,TRUE,lec05,regression issues part I,AEPV 2,
-January,31,Thursday,FALSE,,,,PC1
-February,5,Tuesday,FALSE,lec06,model selection,AEPV 3 (ISL 5.1),
-February,7,Thursday,FALSE,,,,
-February,12,Tuesday,FALSE,lec07,lec07,AEPV 4,
-February,14,Thursday,FALSE,,,,HW2 Due Friday (2-15) by 11:59 PM 
+month,day,dow,link_it,notes,topic,reading,action,rr
+January,8,Tuesday,TRUE,lec01,"intro, syllabus, github",HGR,,
+January,10,Thursday,TRUE,lec02,github and Rmarkdown,(R4DS 27-30),,rr1
+January,15,Tuesday,TRUE,lec03,coding and functions,AEPV App N. (R4DS 19),,
+January,17,Thursday,FALSE,,,,<s>HW1 Due</s>,rr2
+January,22,Tuesday,TRUE,lec04,linear regression,AEPV 1 (ISL 3),,
+January,24,Thursday,FALSE,,,,PC 0 and New HW 1 Due date,rr3
+January,29,Tuesday,TRUE,lec05,regression issues part I,AEPV 2,,
+January,31,Thursday,FALSE,,,,PC1,
+February,5,Tuesday,FALSE,lec06,model selection,AEPV 3 (ISL 5.1),,
+February,7,Thursday,FALSE,,,,,rr4
+February,12,Tuesday,FALSE,lec07,lec07,AEPV 4,,
+February,14,Thursday,FALSE,,,,HW2 Due Friday (2-15) by 11:59 PM ,

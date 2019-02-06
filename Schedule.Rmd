@@ -30,17 +30,17 @@ cdat$notes1[!link_them] = ' ' # put blanks where there are not pdfs
 cdat <- cdat %>% mutate(notes = str_replace(notes1, '\"LINK\"', full_path))
 rownames(cdat) <- NULL
 ## Link all reading responses
-which.weeks.rrs = c(1:8,10:14)
-which.days.rrs = which.weeks.rrs*2
-exist_dirs = list.dirs("../RRs/", recursive = FALSE, full.names = FALSE)
-exist_rrs = exist_dirs[grepl('rr', exist_dirs)]
-exist_rrs = exist_rrs[order(as.numeric(substring(exist_rrs,3)))]
-rrlinks = paste0('https://github.com/STAT-S432SP2019/RRs/tree/master/', exist_rrs)
-allrrs = c('rr1',exist_rrs)
-cdat$rr = character(nrow(cdat))
-rrlinks = c('https://github.com/stat-s432sp2019/class-roster', rrlinks)
-allrrs = paste0('<a href=',rrlinks,'>',allrrs,'</a>')
-cdat$rr[which.days.rrs[1:length(rrlinks)]] = allrrs
+# which.weeks.rrs = c(1:8,10:14)
+# which.days.rrs = which.weeks.rrs*2
+# exist_dirs = list.dirs("../RRs/", recursive = FALSE, full.names = FALSE)
+# exist_rrs = exist_dirs[grepl('rr', exist_dirs)]
+# exist_rrs = exist_rrs[order(as.numeric(substring(exist_rrs,3)))]
+# rrlinks = paste0('https://github.com/STAT-S432SP2019/RRs/tree/master/', exist_rrs)
+# allrrs = c('rr1',exist_rrs)
+# cdat$rr = character(nrow(cdat))
+# rrlinks = c('https://github.com/stat-s432sp2019/class-roster', rrlinks)
+# allrrs = paste0('<a href=',rrlinks,'>',allrrs,'</a>')
+# cdat$rr[which.days.rrs[1:length(rrlinks)]] = allrrs
 ```
 
 
