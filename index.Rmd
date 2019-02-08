@@ -13,7 +13,7 @@ This is the (very) basic website for STAT-S 432, Spring 2019. Rennovation is pla
 * [Slack](https://stat-s432sp2019.slack.com)
 * [Syllabus](Syllabus.html)
 * Books
-    + [AEPV: Shalizi](AEPV.pdf)
+    + [AEPV: Shalizi](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/)
     + [ISL: Casella, Fienberg, and Olkin](ISL.pdf)
   
 ## GitHub Flowchart
